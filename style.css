@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: Damn;
-    src: url(Asccets/Fonts/Satoshi-Variable.ttf);
+    src: url(Asccets/Fonts/steelfish\ eb.otf);
 }
 
 :root{
@@ -157,11 +157,10 @@ html,body{
 }
 
 .header h1{
-    font-size: 11.458vh;
+    font-size: 19.458vh;
     color: var(--light-black);
     font-family: Damn;
     font-weight: 500;
-    letter-spacing: -5px;
 }
 
 .btn{
@@ -206,11 +205,10 @@ html,body{
 }
 
 .header-2 h1{
-    font-size: 11.458vh;
+    font-size: 19.458vh;
     color: var(--light-black);
     font-family: Damn;
     font-weight: 500;
-    letter-spacing: -0.166vw;
     padding-left: 1.464vw;
     white-space: nowrap;
 }
@@ -227,11 +225,10 @@ html,body{
 }
 
 .header-3 h1{
-    font-size: 11.458vh;
+    font-size: 19.458vh;
     color: var(--light-black);
     font-family: Damn;
     font-weight: 500;
-    letter-spacing: -0.146vw;
     white-space: nowrap;
 }
 
@@ -277,6 +274,181 @@ html,body{
     transition-duration: 0.5s;
 }
 
+.page-2{
+    height: 150%;
+    width: 100vw;
+    background-color: var(--light-grey--);
+}
 
+.h1-con{
+    height: auto;
+    width: 42vw;
+    margin: auto;
+}
 
+.page-2 h1{
+    font-size: 19.458vh;
+    color: var(--light-black);
+    font-family: Damn;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90vw;
+    margin: auto;
+    height: auto;
+}
+
+.card{
+    height: 384px;
+    width: 304px;
+    background-image:linear-gradient(#BAE102,#8ECE00,#51C000);
+    border-radius: 20px;
+    margin-top: 150px;
+    cursor: pointer;
+}
+
+.card1{
+    height: 384px;
+    width: 304px;
+    background-image:linear-gradient(#7A5FA9,#43227C,#5E3E90);
+    border-radius: 20px;
+    margin-top: 150px;
+    cursor: pointer;
+}
+
+.card2{
+    height: 384px;
+    width: 304px;
+    background-image:linear-gradient(#F38A61,#DD6A34,#DC6831);
+    border-radius: 20px;
+    margin-top: 150px;
+    cursor: pointer;
+}
+
+.green-apple img{
+    width: 300px;
+    margin-top: -120px;
+}
+
+.grape img{
+    width: 450px;
+    margin-left:-70px ;
+    margin-top: -120px;
+}
+
+.orange img{
+    width: 450px;
+    margin-left:-70px ;
+    margin-top: -120px;
+}
+
+.content h3{
+    position: relative;
+    top: 50px;
+    left: 10px;
+    font-size: 5.458vh;
+    color: var(--light-black);
+    font-family: poppins;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.content1 h3{
+    position: relative;
+    top: 50px;
+    left: 10px;
+    font-size: 5.458vh;
+    color: var(--light-black);
+    font-family: poppins;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.content2 h3{
+    position: relative;
+    top: 50px;
+    left: 10px;
+    font-size: 5.458vh;
+    color: var(--light-black);
+    font-family: poppins;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.drink-btn{
+    margin-top: 5vw;
+    margin-left: 10px;
+    gap: 0.732vw;
+    cursor: pointer;
+}
+
+.drink-btn a{
+    padding: 2.344vh 3.075vw;
+    background-color: #92D000;
+    font-size: 20px;
+    font-family: poppins;
+    color: var(--white--);
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.drink-btn a:hover{
+    background-color:#56C100 ;
+    transition-duration: 0.5s;
+}
+
+.drink-btn1{
+    margin-top: 5vw;
+    margin-left: 10px;
+    gap: 0.732vw;
+    cursor: pointer;
+}
+
+.drink-btn1 a{
+    padding: 2.344vh 3.075vw;
+    background-color: #56368A;
+    font-size: 20px;
+    font-family: poppins;
+    color: var(--white--);
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.drink-btn1 a:hover{
+    background-color:#4D2D84 ;
+    transition-duration: 0.5s;
+}
+
+.drink-btn2{
+    margin-top: 5vw;
+    margin-left: 10px;
+    gap: 0.732vw;
+    cursor: pointer;
+}
+
+.drink-btn2 a{
+    padding: 2.344vh 3.075vw;
+    background-color: #EC7F52;
+    font-size: 20px;
+    font-family: poppins;
+    color: var(--white--);
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.drink-btn2 a:hover{
+    background-color:#DD6932 ;
+    transition-duration: 0.5s;
+}
 
