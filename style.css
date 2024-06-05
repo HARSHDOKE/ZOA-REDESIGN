@@ -15,6 +15,10 @@
     --black--:#000000;
     --light-black:#1A1A1A;
     --orange--:#F45420;
+    --grey--:#C7C6C1;
+    --hover--:#008f00;
+    --hover-2--:#ff480b;
+    --yellow--:#FFC83D;
 }
 
 *{
@@ -39,31 +43,60 @@ html,body{
 .navbar{
     height: 12.417vh;
     width: 100vw;
-    background-color: var(--green--);
+    background-color: var(--light-grey--);
+
 }
 
 .navbar-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 95vw;
+    background-color: var(--green--);
+    height: 12.417vh;
+    border-radius: 50px;
+    border: 5px solid var(--white--);
+}
+
+.navbar-con{
+    position: absolute;
+    top: 2.604vh;
+    left: 2.5vw;
+}
+
+.ham i{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--white--);
+    font-family: poppins;
+    margin-left: 2.5vw;
+    cursor: pointer;
+}
+
+.ham i:hover{
+    color: var(--grey--);
+    transition-duration: 0.2s;
 }
 
 .logo{
     height: auto;
-    width: 10.981vw
+    width: 10.981vw;
+    border-left: 1px solid var(--light-grey--);
+    border-right: 1px solid var(--light-grey--);
+    margin-left: 5.7vw;
 }
 
 .logo img{
     width: 10.981vw;
-    padding-top: 1.953vh;
-    padding-left: 1.464vw;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .navlinks{
     display: flex;
-    align-items: center;
     gap: 3.66vw;
-    padding-right:2.928vw;
+    padding-right:2.5vw;
 }
 
 .links{
@@ -76,27 +109,22 @@ html,body{
 
 .icons{
     display: flex;
-    gap: 1.464vw;
+    gap: 1.8vw;
     cursor: pointer;
     align-items: center;
-    padding-top: 1.953vh;
-}
-
-.navlinks a{
-    font-size: 1.250em;
-    font-weight: 400;
-    text-decoration: none;
-    color: var(--white--);
-    font-family: poppins;
-    text-transform:uppercase;
 }
 
 .navlinks i{
-    font-size: 1.250em;
+    font-size: 1.5rem;
     font-weight: 400;
     text-decoration: none;
     color: var(--white--);
     font-family: poppins;
+}
+
+.navlinks i:hover{
+    color: var(--grey--);
+    transition-duration: 0.2s;
 }
 
 /* ----navbar ends---- */
@@ -113,10 +141,11 @@ html,body{
     width: 90vw;
     margin: auto;
     height: auto;
+    padding-top: 2.604vh;
 }
 
 .header{
-    padding-top: 20px;
+    padding-top: 2.604vh;
     display: flex;
     align-items: center;
 }
@@ -126,18 +155,20 @@ html,body{
     color: var(--light-black);
     font-family: sometimes;
     font-weight: 600;
-    letter-spacing: 5px;
+    letter-spacing: 0.366vw;
 }
 
 .btn{
-    padding-left:30px;
-    gap: 10px;
+    padding-left:2.196vw;
+    gap: 0.732vw;
+    display: flex;
+    align-items: center;
 }
 
 .btn a{
-    padding: 14px 32px;
+    padding: 2.344vh 3.075vw;
     background-color: var(--dark-green--);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: poppins;
     color: var(--white--);
     font-weight: 400;
@@ -145,19 +176,24 @@ html,body{
     border-radius: 10px;
 }
 
+.btn a:hover{
+    background-color: var(--hover--);
+    transition-duration: 0.5s;
+}
+
 .header-2{
-    padding-top: 20px;
+    padding-top: 2.604vh;
     display: flex;
     align-items: center;
 }
 
 .paragraph{
-    width: 335px;
-    height: 96px;
+    width: 24.524vw;
+    height: 12.5vh;
 }
 
 .paragraph p{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: poppins;
     font-weight: 400;
     color: var(--light-black);
@@ -168,13 +204,13 @@ html,body{
     color: var(--light-black);
     font-family: sometimes;
     font-weight: 600;
-    letter-spacing: 5px;
-    padding-left: 20px;
+    letter-spacing: 0.366vw;
+    padding-left: 1.464vw;
     white-space: nowrap;
 }
 
 .header-3{
-    padding-top: 20px;
+    padding-top: 2.604vh;
     display: flex;
     align-items: center;
 }
@@ -189,12 +225,12 @@ html,body{
     color: var(--light-black);
     font-family: sometimes;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 0.146vw;
     white-space: nowrap;
 }
 
 .vedio-con{
-    height: 100vh;
+    height: 90vh;
     width: 90vw;
     margin: auto;
 }
@@ -213,12 +249,13 @@ html,body{
 
 .fuel{
     margin-left: calc(100vw - 62.5vw);
-    margin-top: -70px;
-    gap: 10px;
+    margin-top: -10.115vh;
+    gap: 0.732vw;
+    cursor: pointer;
 }
 
 .fuel a{
-    padding: 14px 32px;
+    padding: 2.344vh 3.075vw;
     background-color: var(--orange--);
     font-size: 20px;
     font-family: poppins;
@@ -227,6 +264,11 @@ html,body{
     text-decoration: none;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.fuel a:hover{
+    background-color: var(--hover-2--);
+    transition-duration: 0.5s;
 }
 
 
