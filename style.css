@@ -179,12 +179,17 @@ html,body{
     align-items: center;
 }
 
+.header-3 span{
+    font-size: 4.5rem;
+    align-items: center;
+}
+
 .header-3 h1{
     font-size: 6rem;
     color: var(--light-black);
     font-family: sometimes;
     font-weight: 600;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     white-space: nowrap;
 }
 
@@ -221,6 +226,7 @@ html,body{
     font-weight: 400;
     text-decoration: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 
